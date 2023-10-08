@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 app.use((req,res,next)=>{
-res.setHeader("Access-Control-Allow-Origin","https://mernfront-gl2a.onrender.com/",{ mode: 'no-cors' });
+res.setHeader("Access-Control-Allow-Origin","https://mernfront-gl2a.onrender.com/");
 res.header(
   "Access-Control-Allow-Headers",
   "Origin, X-Requested-with, Content-Type,Accept"
